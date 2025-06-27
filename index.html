@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cloud & DevOps Engineer portfolio showcasing infrastructure automation, CI/CD pipelines, and cloud architecture projects">
+    <meta name="keywords" content="DevOps engineer, cloud architect, AWS, Docker, Kubernetes, CI/CD, infrastructure automation, terraform">
+    <meta name="author" content="Your Name">
+    <title>Your Name - Cloud & DevOps Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">CloudOps</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Your Name</span>
+                </h1>
+                <p class="hero-subtitle">Cloud & DevOps Engineer</p>
+                <p class="hero-description">
+                    Passionate about building scalable cloud infrastructure, automating deployments, 
+                    and implementing robust CI/CD pipelines. Experienced in AWS, Docker, Kubernetes, 
+                    and Infrastructure as Code.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Hire Me</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-icon">☁️</span>
+                        <span class="stat-text">Cloud Native</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-icon">🚀</span>
+                        <span class="stat-text">CI/CD Expert</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-icon">🔧</span>
+                        <span class="stat-text">Automation</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-avatar">
+                    <img src="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Cloud infrastructure visualization" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a dedicated Cloud & DevOps Engineer with 3+ years of experience in designing, 
+                        implementing, and managing cloud infrastructure. I specialize in AWS services, 
+                        containerization with Docker and Kubernetes, and building automated CI/CD pipelines 
+                        that enable teams to deploy faster and more reliably.
+                    </p>
+                    <p>
+                        My expertise includes Infrastructure as Code using Terraform, monitoring and logging 
+                        with CloudWatch and ELK stack, and implementing security best practices across 
+                        cloud environments. I'm passionate about optimizing costs, improving system reliability, 
+                        and enabling development teams through automation.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <span class="highlight-icon">⚡</span>
+                            <div>
+                                <h4>Performance Optimization</h4>
+                                <p>Reduced deployment time by 80% through automated CI/CD pipelines</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-icon">💰</span>
+                            <div>
+                                <h4>Cost Optimization</h4>
+                                <p>Achieved 40% cost reduction through infrastructure optimization</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-icon">🛡️</span>
+                            <div>
+                                <h4>Security First</h4>
+                                <p>Implemented zero-trust security models and compliance frameworks</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">25+</span>
+                            <span class="stat-label">Cloud Projects</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">99.9%</span>
+                            <span class="stat-label">Uptime Achieved</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Automation Scripts</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Cloud infrastructure dashboard" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Kubernetes cluster dashboard" />
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Multi-Tier Web App on AWS</h3>
+                        <p class="project-description">
+                            Deployed a scalable 3-tier web application on AWS using EC2, RDS, and ALB. 
+                            Implemented auto-scaling, monitoring with CloudWatch, and automated backups. 
+                            Infrastructure provisioned using Terraform.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">AWS</span>
+                            <span class="tech-tag">Terraform</span>
+                            <span class="tech-tag">EC2</span>
+                            <span class="tech-tag">RDS</span>
+                            <span class="tech-tag">CloudWatch</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Live Demo</a>
+                            <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg?auto=compress&cs=tinysrgb&w=600" alt="CI/CD pipeline visualization" />
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Kubernetes Microservices Platform</h3>
+                        <p class="project-description">
+                            Built a complete microservices platform using Kubernetes, Docker, and Helm. 
+                            Implemented service mesh with Istio, monitoring with Prometheus/Grafana, 
+                            and automated deployments with GitOps using ArgoCD.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Kubernetes</span>
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">Helm</span>
+                            <span class="tech-tag">Istio</span>
+                            <span class="tech-tag">ArgoCD</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Architecture</a>
+                            <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=600" alt="DevOps automation dashboard" />
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">CI/CD Pipeline with Jenkins</h3>
+                        <p class="project-description">
+                            Designed and implemented a complete CI/CD pipeline using Jenkins, Docker, 
+                            and AWS. Automated testing, security scanning, and deployment processes. 
+                            Integrated with Slack for notifications and SonarQube for code quality.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Jenkins</span>
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">AWS CodeDeploy</span>
+                            <span class="tech-tag">SonarQube</span>
+                            <span class="tech-tag">Slack API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Pipeline</a>
+                            <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Infrastructure monitoring" />
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Infrastructure as Code (IaC)</h3>
+                        <p class="project-description">
+                            Complete AWS infrastructure automation using Terraform and Ansible. 
+                            Provisioned VPC, subnets, security groups, and compute resources. 
+                            Implemented blue-green deployment strategy with zero downtime.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Terraform</span>
+                            <span class="tech-tag">Ansible</span>
+                            <span class="tech-tag">AWS VPC</span>
+                            <span class="tech-tag">Blue-Green</span>
+                            <span class="tech-tag">GitLab CI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Documentation</a>
+                            <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Monitoring dashboard" />
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Monitoring & Logging Stack</h3>
+                        <p class="project-description">
+                            Implemented comprehensive monitoring solution using Prometheus, Grafana, 
+                            and ELK stack. Created custom dashboards, alerts, and log aggregation 
+                            for distributed microservices architecture.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Prometheus</span>
+                            <span class="tech-tag">Grafana</span>
+                            <span class="tech-tag">ELK Stack</span>
+                            <span class="tech-tag">AlertManager</span>
+                            <span class="tech-tag">Fluentd</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Dashboards</a>
+                            <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/1181316/pexels-photo-1181316.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Security automation" />
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">DevSecOps Pipeline</h3>
+                        <p class="project-description">
+                            Integrated security into CI/CD pipeline with automated vulnerability scanning, 
+                            compliance checks, and security testing. Implemented SAST, DAST, and 
+                            container security scanning with Trivy and OWASP ZAP.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">DevSecOps</span>
+                            <span class="tech-tag">Trivy</span>
+                            <span class="tech-tag">OWASP ZAP</span>
+                            <span class="tech-tag">Snyk</span>
+                            <span class="tech-tag">HashiCorp Vault</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Security Report</a>
+                            <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3>☁️ Cloud Platforms</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">Amazon Web Services (AWS)</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Microsoft Azure</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Google Cloud Platform</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>🐳 Containerization & Orchestration</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">Docker</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Kubernetes</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Helm</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>🔧 Infrastructure as Code</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">Terraform</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Ansible</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">CloudFormation</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>🚀 CI/CD & Automation</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">Jenkins</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">GitLab CI/CD</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">GitHub Actions</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">ArgoCD</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>📊 Monitoring & Logging</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">Prometheus & Grafana</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">ELK Stack</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">CloudWatch</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>💻 Programming & Scripting</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">Python</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Bash/Shell Scripting</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">YAML/JSON</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Go</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications & Learning</h2>
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <div class="cert-icon">🏆</div>
+                    <h3>AWS Solutions Architect</h3>
+                    <p>Associate Level</p>
+                    <span class="cert-status">In Progress</span>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">☁️</div>
+                    <h3>AWS Cloud Practitioner</h3>
+                    <p>Foundational Level</p>
+                    <span class="cert-status">Planned</span>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">🐳</div>
+                    <h3>Certified Kubernetes Admin</h3>
+                    <p>CKA Certification</p>
+                    <span class="cert-status">Studying</span>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">🔧</div>
+                    <h3>HashiCorp Terraform</h3>
+                    <p>Associate Certification</p>
+                    <span class="cert-status">Planned</span>
+                </div>
+            </div>
+            <div class="learning-section">
+                <h3>Currently Learning</h3>
+                <div class="learning-items">
+                    <span class="learning-tag">Service Mesh (Istio)</span>
+                    <span class="learning-tag">GitOps with ArgoCD</span>
+                    <span class="learning-tag">AWS EKS</span>
+                    <span class="learning-tag">Infrastructure Security</span>
+                    <span class="learning-tag">Cost Optimization</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Build Something Amazing</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Ready to optimize your infrastructure?</h3>
+                    <p>
+                        I'm passionate about helping organizations scale their infrastructure, 
+                        improve deployment processes, and implement cloud-native solutions. 
+                        Let's discuss how I can contribute to your team's success.
+                    </p>
+                    <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <span>your.email@example.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📱</span>
+                        <span>+1 (555) 123-4567</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <span>Your City, Country</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">💼</span>
+                        <span>Open to Remote & Hybrid Opportunities</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">GitHub</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Docker Hub</a>
+                        <a href="#" class="social-link">Medium</a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="inquiry-type" name="inquiry-type" required>
+                            <option value="">Select Inquiry Type</option>
+                            <option value="job-opportunity">Job Opportunity</option>
+                            <option value="consulting">Consulting Project</option>
+                            <option value="collaboration">Collaboration</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or opportunity..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Your Name - Cloud & DevOps Engineer. All rights reserved.</p>
+            <p>Built with ❤️ and deployed on AWS</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
