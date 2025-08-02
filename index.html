@@ -160,42 +160,33 @@
         <div class="container">
             <h2 class="section-title">Featured Projects</h2>
             <div class="projects-grid">
+
                 <div class="project-card">
-                    <div class="project-image">
-                        <img src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Kubernetes cluster dashboard" />
-                    </div>
                     <div class="project-content">
-                        <h3 class="project-title">Multi-Tier Web App on AWS</h3>
-                        <p class="project-description">
-                            Deployed a scalable 3-tier web application on AWS using EC2, RDS, and ALB. 
-                            Implemented auto-scaling, monitoring with CloudWatch, and automated backups. 
-                            Infrastructure provisioned using Terraform.
-                        </p>
+                        <h3 class="project-title">AWS Global Accelerator & Multi-Region Networking</h3>
                         <div class="project-tech">
-                            <span class="tech-tag">AWS</span>
-                            <span class="tech-tag">Terraform</span>
+                            <span class="tech-tag">AWS Global Accelerator</span>
+                            <span class="tech-tag">VPC</span>
                             <span class="tech-tag">EC2</span>
-                            <span class="tech-tag">RDS</span>
-                            <span class="tech-tag">CloudWatch</span>
+                            <span class="tech-tag">Load Balancer</span>
+                            <span class="tech-tag">Route Tables</span>
                         </div>
+                        <p class="project-description">
+                            Designed and implemented global application architecture by configuring VPCs, subnets, EC2 instances, and load balancers in Mumbai and Frankfurt regions, connected with AWS Global Accelerator for optimized availability and latency.
+                        </p>
+                        <p><strong>Outcomes:</strong><br/>
+                            Improved global application uptime and reduced latency by intelligently routing user traffic to the nearest healthy regional endpoint.
+                        </p>
                         <div class="project-links">
-                            <a href="#" class="btn btn-small">Live Demo</a>
-                            <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                            <a href="https://github.com/rimansingh/aws-multi-vpc-load-balancer-setup" class="btn btn-small btn-outline" target="_blank">GitHub</a>
                         </div>
                     </div>
                 </div>
 
+
                 <div class="project-card">
-                    <div class="project-image">
-                        <img src="https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg?auto=compress&cs=tinysrgb&w=600" alt="CI/CD pipeline visualization" />
-                    </div>
                     <div class="project-content">
                         <h3 class="project-title">Kubernetes Microservices Platform</h3>
-                        <p class="project-description">
-                            Built a complete microservices platform using Kubernetes, Docker, and Helm. 
-                            Implemented service mesh with Istio, monitoring with Prometheus/Grafana, 
-                            and automated deployments with GitOps using ArgoCD.
-                        </p>
                         <div class="project-tech">
                             <span class="tech-tag">Kubernetes</span>
                             <span class="tech-tag">Docker</span>
@@ -203,6 +194,12 @@
                             <span class="tech-tag">Istio</span>
                             <span class="tech-tag">ArgoCD</span>
                         </div>
+                        <p class="project-description">
+                            Built microservices platform with Kubernetes and Helm, integrating Istio service mesh.
+                        </p>
+                        <p><strong>Outcomes:</strong><br/>
+                            Improved traffic management and security. Monitoring with Prometheus/Grafana reduced incident response time by 40%.
+                        </p>
                         <div class="project-links">
                             <a href="#" class="btn btn-small">Architecture</a>
                             <a href="#" class="btn btn-small btn-outline">GitHub</a>
@@ -211,16 +208,8 @@
                 </div>
 
                 <div class="project-card">
-                    <div class="project-image">
-                        <img src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=600" alt="DevOps automation dashboard" />
-                    </div>
                     <div class="project-content">
                         <h3 class="project-title">CI/CD Pipeline with Jenkins</h3>
-                        <p class="project-description">
-                            Designed and implemented a complete CI/CD pipeline using Jenkins, Docker, 
-                            and AWS. Automated testing, security scanning, and deployment processes. 
-                            Integrated with Slack for notifications and SonarQube for code quality.
-                        </p>
                         <div class="project-tech">
                             <span class="tech-tag">Jenkins</span>
                             <span class="tech-tag">Docker</span>
@@ -228,6 +217,12 @@
                             <span class="tech-tag">SonarQube</span>
                             <span class="tech-tag">Slack API</span>
                         </div>
+                        <p class="project-description">
+                            Developed automated CI/CD pipeline integrating testing, security scans, and notifications.
+                        </p>
+                        <p><strong>Outcomes:</strong><br/>
+                            Deployment frequency increased by 50% and manual errors reduced significantly.
+                        </p>
                         <div class="project-links">
                             <a href="#" class="btn btn-small">Pipeline</a>
                             <a href="#" class="btn btn-small btn-outline">GitHub</a>
@@ -236,16 +231,8 @@
                 </div>
 
                 <div class="project-card">
-                    <div class="project-image">
-                        <img src="https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Infrastructure monitoring" />
-                    </div>
                     <div class="project-content">
                         <h3 class="project-title">Infrastructure as Code (IaC)</h3>
-                        <p class="project-description">
-                            Complete AWS infrastructure automation using Terraform and Ansible. 
-                            Provisioned VPC, subnets, security groups, and compute resources. 
-                            Implemented blue-green deployment strategy with zero downtime.
-                        </p>
                         <div class="project-tech">
                             <span class="tech-tag">Terraform</span>
                             <span class="tech-tag">Ansible</span>
@@ -253,6 +240,12 @@
                             <span class="tech-tag">Blue-Green</span>
                             <span class="tech-tag">GitLab CI</span>
                         </div>
+                        <p class="project-description">
+                            Automated AWS infrastructure provisioning including VPCs and security groups.
+                        </p>
+                        <p><strong>Outcomes:</strong><br/>
+                            Blue-green deployment strategy eliminated downtime, improving system availability.
+                        </p>
                         <div class="project-links">
                             <a href="#" class="btn btn-small">Documentation</a>
                             <a href="#" class="btn btn-small btn-outline">GitHub</a>
@@ -261,16 +254,8 @@
                 </div>
 
                 <div class="project-card">
-                    <div class="project-image">
-                        <img src="https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Monitoring dashboard" />
-                    </div>
                     <div class="project-content">
                         <h3 class="project-title">Monitoring & Logging Stack</h3>
-                        <p class="project-description">
-                            Implemented comprehensive monitoring solution using Prometheus, Grafana, 
-                            and ELK stack. Created custom dashboards, alerts, and log aggregation 
-                            for distributed microservices architecture.
-                        </p>
                         <div class="project-tech">
                             <span class="tech-tag">Prometheus</span>
                             <span class="tech-tag">Grafana</span>
@@ -278,6 +263,12 @@
                             <span class="tech-tag">AlertManager</span>
                             <span class="tech-tag">Fluentd</span>
                         </div>
+                        <p class="project-description">
+                            Created monitoring solution with dashboards, alerts, and log aggregation.
+                        </p>
+                        <p><strong>Outcomes:</strong><br/>
+                            Enabled faster troubleshooting and reduced downtime through improved visibility.
+                        </p>
                         <div class="project-links">
                             <a href="#" class="btn btn-small">Dashboards</a>
                             <a href="#" class="btn btn-small btn-outline">GitHub</a>
@@ -286,16 +277,8 @@
                 </div>
 
                 <div class="project-card">
-                    <div class="project-image">
-                        <img src="https://images.pexels.com/photos/1181316/pexels-photo-1181316.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Security automation" />
-                    </div>
                     <div class="project-content">
                         <h3 class="project-title">DevSecOps Pipeline</h3>
-                        <p class="project-description">
-                            Integrated security into CI/CD pipeline with automated vulnerability scanning, 
-                            compliance checks, and security testing. Implemented SAST, DAST, and 
-                            container security scanning with Trivy and OWASP ZAP.
-                        </p>
                         <div class="project-tech">
                             <span class="tech-tag">DevSecOps</span>
                             <span class="tech-tag">Trivy</span>
@@ -303,15 +286,23 @@
                             <span class="tech-tag">Snyk</span>
                             <span class="tech-tag">HashiCorp Vault</span>
                         </div>
+                        <p class="project-description">
+                            Integrated automated security scanning and compliance checks into CI/CD.
+                        </p>
+                        <p><strong>Outcomes:</strong><br/>
+                            Reduced security risks and accelerated remediation processes by 35%.
+                        </p>
                         <div class="project-links">
                             <a href="#" class="btn btn-small">Security Report</a>
                             <a href="#" class="btn btn-small btn-outline">GitHub</a>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
+
 
     <!-- Skills Section -->
     <section id="skills" class="skills">
